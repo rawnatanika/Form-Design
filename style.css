@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'tahoma';
+}
+.fb-header{
+	background-color: #3B5998;
+	overflow: hidden;
+	padding: 10px 0 5px;
+ 	border-bottom: 1px solid #1D2A5B;
+}
+.wrapper{
+	width: 75%;
+	margin: 0 auto;
+}
+.header-left{
+	float: left;
+}
+.header-left img{
+	margin-top: 10px;
+}
+.header-right{
+	float: right;
+}
+.header-right form{
+	display: flex;
+}
+.email-area{}
+.header-right label{
+	font-size: 12px;
+	color: #fff;
+	line-height: 25px;
+}
+.email-area input{
+	display: block;
+	border-radius: 0;
+	border: 1px solid #1D2A5B;
+	height: 20px;
+}
+.pass-area{
+	margin: 0 15px;
+}
+.pass-area input{
+	display: block;
+	border-radius: 0;
+	border: 1px solid #1D2A5B;
+	height: 20px;
+}
+.pass-area a{
+	font-size: 13px;
+	color: #9CB4CA;
+	text-decoration: none;
+}
+.pass-area a:hover{
+	text-decoration: underline;
+}
+.login-area{}
+.login-area input{
+	display: block;
+	margin-top: 24px;
+	background-color: #4267B2;
+	border: 1px solid #29487D;
+	color: #fff;
+	padding: 2px 8px;
+}
+.login-area input:hover{
+	background-color: #365899;
+	cursor: pointer;
+}
+
+/* Fb Body */
+.fb-body{
+	background: linear-gradient(#FFFFFF, #D3D8E8);
+	overflow: hidden;
+	padding: 30px 0;
+}
+.fb-body-left{
+	width: 47%;
+	float: left;
+}
+.fb-body-left h3{
+	color: #0E385F;
+	font-size: 22px;
+	line-height: 1.5em;
+}
+.fb-body-left img{
+	width: 100%;
+	margin-top: 5px;
+}
+
+.fb-body-right{
+	width: 47%;
+	float: right;
+}
+.fb-right-header{
+	margin-bottom: 20px;
+}
+.fb-right-header h2{
+	font-size: 38px;
+	color: #333333;
+}
+.fb-right-header h4{
+	font-weight: 100;
+	font-size: 19px;
+}
+.fb-right-form{}
+.fb-right-form form{}
+.user-name{
+	display: flex;
+	margin-bottom: 10px;
+}
+.user-name .first-name{
+	width: 48%;
+	margin-right: 4%;
+}
+.user-name .surname{
+	width: 48%;
+}
+.user-name input{
+	width: 100%;
+	padding: 10px 5px;
+	border-radius: 5px;
+	border: 1px solid #BDC7D8;
+}
+input::placeholder{
+	color: #A299A2;
+	opacity: 1;
+	font-size: 18px;
+}
+input::-ms-input-placeholder{
+	color: #A299A2;
+	opacity: 1;
+	font-size: 18px;
+}
+input:-ms-input-placeholder{
+	color: #A299A2;
+	opacity: 1;
+	font-size: 18px;
+}
+.user-mail{
+	width: 100%;
+}
+.user-mail input{
+	padding: 10px 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #BDC7D8;
+}
+.user-pass input{
+	padding: 10px 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #BDC7D8;
+}
+.user-birthday{
+	display: flex;
+}
+.birth{
+	wdith: 68%;
+}
+.birth h4{
+	font-weight: 100;
+	font-size: 19px;
+	margin-bottom: 5px;
+}
+.birth select{
+	background-color: #fff;
+	border: 1px solid #BDC7D8;
+	padding: 5px 10px;
+}
+.birth select:nth-child(3) {
+	margin-left: -5px;
+}
+.birth select:nth-child(4) {
+	margin-left: -5px;
+}
+.birth-text{
+	width: 30%;
+	padding-top: 22px;
+	margin-left: 2%;
+}
+.birth-text a{
+	color: #365899;
+	font-size: 11px;
+	text-decoration: none;
+}
+.birth-text a:hover{
+	text-decoration: underline;
+}
+.gender{
+	display: flex;
+	padding: 20px 0;
+}
+.gender .female{
+	margin: 0 15px;
+}
+.form-text{
+	width: 75%;
+}
+.form-text p{
+	font-size: 12px;
+	color: #777777;
+}
+.form-text p a{
+	color: #365899;
+	font-size: 12px;
+	text-decoration: none;
+}
+.form-text p a:hover{
+	text-decoration: underline;
+}
+.signup-button{
+	padding: 20px 0;
+}
+.signup-button input{
+	background: linear-gradient(#65AA53, #588A44);
+	color: #fff;
+	padding: 6px 30px;
+	border: 1px solid #2C5115;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.signup-button input:hover{
+	background: linear-gradient(#76B761, #598B45);
+	cursor: pointer;
+
+}
+
+.footer-bottom p{
+	font-size: 12px;
+	color: #737373;
+	text-align:center;
+	padding: 10px 0;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    margin:auto 0%;
